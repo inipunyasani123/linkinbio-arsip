@@ -2,7 +2,7 @@
 
 Tautan Dara Puspita, penulis dan penyair di Yogyakarta: kumpulan puisi "Rumah Kata" dengan satu puisi utuh, arsip Surat Jumat Pagi, kelas menulis November 2026, dan kotak surat.
 
-**Demo live:** https://linkinbio-arsip.vercel.app
+**Demo live:** https://linkinbio-arsip.pintuweb.id
 
 ![Tangkapan layar Arsip Kata](public/og.jpg)
 

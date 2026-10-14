@@ -4,10 +4,10 @@ import "./globals.css";
 const elite = Special_Elite({ subsets: ["latin"], variable: "--font-elite", weight: "400" });
 const lora = Lora({ subsets: ["latin"], variable: "--font-lora", style: ["normal", "italic"] });
 
-const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Dara","jobTitle":"Penulis & Penyair","url":"https://linkinbio-arsip.vercel.app","inLanguage":"id"}};
+const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Dara","jobTitle":"Penulis & Penyair","url":"https://linkinbio-arsip.pintuweb.id","inLanguage":"id"}};
 
 export const metadata = {
-  metadataBase: new URL("https://linkinbio-arsip.vercel.app"),
+  metadataBase: new URL("https://linkinbio-arsip.pintuweb.id"),
   title: { default: "Dara Puspita — Penulis & Penyair, Yogyakarta", template: "%s — Dara Puspita" },
   description: "Tautan Dara Puspita, penulis dan penyair di Yogyakarta: kumpulan puisi \"Rumah Kata\" dengan satu puisi utuh, arsip Surat Jumat Pagi, kelas menulis November 2026, dan kotak surat.",
   applicationName: "Arsip Kata",
@@ -15,11 +15,11 @@ export const metadata = {
   authors: [{ name: "Arsip Kata" }],
   creator: "Arsip Kata",
   publisher: "Arsip Kata",
-  alternates: { canonical: "https://linkinbio-arsip.vercel.app" },
+  alternates: { canonical: "https://linkinbio-arsip.pintuweb.id" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://linkinbio-arsip.vercel.app",
+    url: "https://linkinbio-arsip.pintuweb.id",
     siteName: "Arsip Kata",
     title: "Dara Puspita — Penulis & Penyair, Yogyakarta",
     description: "Tautan Dara Puspita, penulis dan penyair di Yogyakarta: kumpulan puisi \"Rumah Kata\" dengan satu puisi utuh, arsip Surat Jumat Pagi, kelas menulis November 2026, dan kotak surat.",
