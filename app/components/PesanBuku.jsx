@@ -11,7 +11,7 @@ export default function PesanBuku() {
   const [untuk, setUntuk] = useState('');
   const [selesai, setSelesai] = useState(false);
   const total = BUKU.harga * jml + ONGKIR;
-  const input = 'w-full border-b border-dashed border-tinta/40 bg-transparent py-2 font-serif focus:border-merahpos focus:outline-none';
+  const input = 'w-full border-b border-dashed border-tinta/60 bg-transparent py-2 font-serif focus:border-merahpos';
 
   return (
     <section aria-labelledby="pesan-h" className="mt-12">
@@ -20,7 +20,7 @@ export default function PesanBuku() {
         <div role="status" className="mt-4 font-serif">
           <p className="italic">Tercatat — {jml} buku{ttd ? `, ditandatangani${untuk ? ` untuk ${untuk}` : ''}` : ''}. Dikirim dalam 3 hari kerja.</p>
           <p className="mt-2 text-sm text-tinta/75">Ini purwarupa desain: tidak ada pembayaran atau pengiriman sungguhan.</p>
-          <button type="button" onClick={() => setSelesai(false)} className="mt-4 font-type text-sm text-merahpos underline underline-offset-4">pesan lagi</button>
+          <button type="button" onClick={() => setSelesai(false)} className="mt-4 min-h-11 font-type text-sm text-merahpos underline underline-offset-4">pesan lagi</button>
         </div>
       ) : (
         <form onSubmit={(e) => { e.preventDefault(); setSelesai(true); }} className="mt-4 space-y-5 font-serif">
@@ -34,8 +34,8 @@ export default function PesanBuku() {
               <input id="b-nama" required autoComplete="name" className={input} />
             </div>
           </div>
-          <label className="flex items-center gap-3">
-            <input type="checkbox" checked={ttd} onChange={(e) => setTtd(e.target.checked)} className="h-4 w-4 accent-[#b4483c]" />
+          <label className="flex min-h-11 cursor-pointer items-center gap-3">
+            <input type="checkbox" checked={ttd} onChange={(e) => setTtd(e.target.checked)} className="h-5 w-5 shrink-0 accent-[#b4483c]" />
             Minta tanda tangan Dara (gratis)
           </label>
           {ttd && (

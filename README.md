@@ -1,6 +1,6 @@
 # Dara Puspita — Penulis & Penyair, Yogyakarta
 
-Tautan Dara Puspita, penulis dan penyair di Yogyakarta: kumpulan puisi "Rumah Kata" dengan satu puisi utuh, arsip Surat Jumat Pagi, kelas menulis November 2026, dan kotak surat.
+Tautan Dara Puspita, penulis dan penyair di Yogyakarta: kumpulan puisi "Rumah Kata", satu puisi utuh, Surat Jumat Pagi, kelas menulis, dan kotak surat.
 
 **Demo live:** https://linkinbio-arsip.pintuweb.id
 
