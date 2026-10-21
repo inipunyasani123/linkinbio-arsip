@@ -1,5 +1,6 @@
 import { BUKU, SITE, rp } from '@/lib/dara';
 import Kembali from '../components/Kembali';
+import Gambar from '../components/Gambar';
 import PesanBuku from '../components/PesanBuku';
 
 export const metadata = {
@@ -14,10 +15,7 @@ export default function Buku() {
       <div className="kertas relative mx-auto w-full max-w-2xl rounded-sm px-7 py-9 md:px-11 md:py-12">
         <Kembali lampiran="Lampiran 1" />
         <div className="mt-8 grid items-end gap-8 sm:grid-cols-[9rem_1fr]">
-          <div aria-hidden="true" className="relative h-52 w-36 rotate-[-2deg] rounded-sm bg-merahpos p-4 text-kertas shadow-[6px_8px_0_rgba(58,49,40,0.25)]">
-            <p className="font-type text-xl leading-tight">Rumah<br />Kata</p>
-            <p className="absolute bottom-4 left-4 font-serif text-xs italic">Dara Puspita</p>
-          </div>
+          <Gambar src="/images/sampul-rumah-kata.webp" alt="Sampul buku Rumah Kata karya Dara Puspita: rumah kecil berjendela baris kata, huruf mengepul dari cerobong, dan cangkir teh di ambang pintu" width={144} height={208} asli={432} priority className="h-52 w-36 rotate-[-2deg] rounded-sm shadow-[6px_8px_0_rgba(58,49,40,0.25)]" />
           <div>
             <p className="font-type text-xs uppercase tracking-[0.2em] text-tinta/75">{BUKU.jenis}</p>
             <h1 className="mt-1 font-type text-4xl text-tinta">{BUKU.judul}</h1>

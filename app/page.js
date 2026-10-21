@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Gambar from './components/Gambar';
 import { ArrowUpRight } from 'lucide-react';
 import { LAMPIRAN } from '@/lib/dara';
 import { hariIniWIB } from '@/lib/waktu';
@@ -10,7 +11,9 @@ export default function Home() {
     <main className="flex min-h-screen items-center justify-center px-4 py-12">
       <div className="kertas relative w-full max-w-lg rotate-[0.4deg] rounded-sm px-7 py-9 md:px-11 md:py-12">
         <div className="absolute right-6 top-6 flex items-start gap-3" aria-hidden="true">
-          <div className="perangko rise grid h-20 w-16 place-items-center rounded-sm text-3xl text-kertas">✒️</div>
+          <div className="perangko rise h-20 w-16 overflow-hidden rounded-sm sm:h-24 sm:w-[4.8rem]">
+            <Gambar src="/images/perangko-dara.webp" alt="" width={77} height={96} asli={384} loading="eager" className="h-full w-full object-cover" />
+          </div>
         </div>
         <div className="stamp-in absolute right-10 top-16 rounded border-2 border-merahpos px-2 py-0.5 font-type text-[10px] uppercase tracking-widest text-merahpos" aria-hidden="true">
           Arsip Kata · 2026
